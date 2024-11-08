@@ -1,0 +1,13 @@
+directories:
+  output: dist-electron
+  buildResources: build
+appId: com.krossotimize.app
+productName: KrossOptimize
+win:
+  target: nsis
+mac:
+  target: dmg
+linux:
+  target: AppImage
+files: []
+electronVersion: 29.4.6
